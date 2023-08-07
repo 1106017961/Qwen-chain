@@ -1,11 +1,11 @@
 import config
 from duckduckgo_search import DDGS
-from chatglm import ChatGLM
+from llm import LLM
 from loguru import logger
 
 class Agent():
     def __init__(self) -> None:
-        self.robot = ChatGLM()
+        self.robot = LLM()
 
     def which_tools(self, prompt: str):
         """

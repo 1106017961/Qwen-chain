@@ -1,8 +1,8 @@
-from chatglm import ChatGLM
+from llm import LLM
 from agent import Agent
 
-question = "最近steam有什么游戏打折了？"
-robot = ChatGLM()
+question = "博德之门3的评价如何？"
+robot = LLM()
 agent = Agent()
 tool = agent.which_tools(question)
 ans = robot.run(

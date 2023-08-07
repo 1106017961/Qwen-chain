@@ -5,7 +5,7 @@ import requests
 from typing import List
 from datetime import datetime
 
-class ChatGLM():
+class LLM():
     
     def __init__(self, 
                  base_address = config.BASE_ADDRESS,
