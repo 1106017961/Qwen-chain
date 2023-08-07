@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  qwenchain:
+    image: paidax/qwenchain:v0.0.1
+    container_name: qwenchain
+    ports:
+      - 10888:10888
+    command: tail -f /dev/null
