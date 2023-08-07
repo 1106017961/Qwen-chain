@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   qwenchain:
-    image: paidax/qwen-chain:0.0.1
+    image: paidax/qwen-chain:0.0.2
     container_name: qwen-chain
     ports:
       - 10888:10888

@@ -5,4 +5,5 @@ RUN pip install --no-cache-dir \
         fastapi[all] \
         loguru \
         duckduckgo_search
+WORKDIR /home/qwen-chain
 COPY . .
