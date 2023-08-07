@@ -5,3 +5,4 @@ RUN pip install --no-cache-dir \
         fastapi[all] \
         loguru \
         duckduckgo_search
+COPY . .
